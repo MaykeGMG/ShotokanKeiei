@@ -4,8 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShotokanKeiei</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/principal.css">
+    <style>
+        main{
+            background-image: url(img/faixa-preta-img.png);
+            background-repeat: no-repeat;
+            background-position: bottom;
+            background-position-x: center;
+            resize: horizontal;
+        }
+        .header{
+            background-color: #333;
+        }
+
+        .header-title{
+            font-size: 2rem;
+        }
+
+        p[type="menu"], p[type="perfil"]{
+            margin-top: 0;
+            color: #fff;
+        }
+
+        .footer {
+            background-color: #333;
+        }
+
+        .footer-text{
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
-    
+    <header class="header">
+        <div class="header-menu">
+            <img src="img/menu-icon.png" alt="Menu" class="icon">
+            <p type="menu">Menu</p>
+        </div>
+        <div class="header-title">Shotokan Keiei</div>
+        <div class="header-profile">
+            <img src="img/perfil-icon.png" alt="Perfil" class="icon">
+            <p type="perfil">Perfil</p>
+        </div>
+    </header>
+
+    <main>
+        <h1>Shotokan Keiei</h1>
+        <p>Bem-vindo, Professor!</p>
+        
+        <div class="button-container">
+            <button>Alunos</button>
+            <button>Cadastrar Alunos</button>
+        </div>
+        
+        <div class="button-container">
+            <button>Eventos</button>
+            <button>Cadastrar Eventos</button>
+        </div>
+        
+        <button>Informações Pessoais</button>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">ShotokanKeiei &#174</p>
+    </footer>
 </body>
 </html>
