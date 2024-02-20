@@ -1,0 +1,7 @@
+main{
+    background-image: url(img/faixa-preta-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position-x: center;
+    resize: horizontal;
+}
