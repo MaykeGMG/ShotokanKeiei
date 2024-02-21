@@ -7,13 +7,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/principal.css">
     <style>
-        main{
-            background-image: url(img/faixa-preta-img.png);
-            background-repeat: no-repeat;
-            background-position: bottom;
-            background-position-x: center;
-            resize: horizontal;
-        }
         .header{
             background-color: #333;
         }
@@ -38,20 +31,23 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-menu">
-            <img src="img/menu-icon.png" alt="Menu" class="icon">
-            <p type="menu">Menu</p>
-        </div>
+        <a href="">
+            <div class="header-menu">
+                <img src="img/menu-icon.png" alt="Menu" class="icon">
+                <p type="menu">Menu</p>
+            </div>
+        </a>
         <div class="header-title">Shotokan Keiei</div>
-        <div class="header-profile">
-            <img src="img/perfil-icon.png" alt="Perfil" class="icon">
-            <p type="perfil">Perfil</p>
-        </div>
+        <a href=""><div class="header-profile">
+                <img src="img/perfil-icon.png" alt="Perfil" class="icon">
+                <p type="perfil">Perfil</p>
+            </div>
+        </a>
     </header>
 
     <main>
-        <h1>Shotokan Keiei</h1>
-        <p>Bem-vindo, Professor!</p>
+        <h1>Shotokan Keiei - Dojo Funakoshi</h1>
+        <p class="welcome">Bem-vindo, Professor!</p>
         
         <div class="button-container">
             <button>Alunos</button>
@@ -64,6 +60,7 @@
         </div>
         
         <button>Informações Pessoais</button>
+        <div calss="faixa-bg"></div>
     </main>
     <footer class="footer">
         <p class="footer-text">ShotokanKeiei &#174</p>
