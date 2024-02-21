@@ -57,12 +57,24 @@ main {
   .not-apt-for-exam {
     color: red;
   }
+
+  .back-button{
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
   
   .back-button {
     display: block;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 7px 14px;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 20px;
