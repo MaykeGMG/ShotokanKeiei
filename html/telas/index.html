@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ShotokanKeiei</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/principal.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/principal.css">
     <style>
         .header{
             background-color: #333333;
@@ -27,15 +27,15 @@
 </head>
 <body>
     <header class="header">
-        <a href="">
+        <a href="index.html">
             <div class="header-menu">
-                <img src="img/menu-icon.png" alt="Menu" class="icon">
+                <img src="../img/menu-icon.png" alt="Menu" class="icon">
                 <p type="menu">Menu</p>
             </div>
         </a>
         <div class="header-title">Shotokan Keiei</div>
-        <a href=""><div class="header-profile">
-                <img src="img/perfil-icon.png" alt="Perfil" class="icon">
+        <a href="tela_perfil.html"><div class="header-profile">
+                <img src="../img/perfil-icon.png" alt="Perfil" class="icon">
                 <p type="perfil">Perfil</p>
             </div>
         </a>
@@ -46,18 +46,19 @@
         <p class="welcome">Bem-vindo, Professor!</p>
         
         <div class="button-container">
-            <button>Alunos</button>
-            <button>Cadastrar Alunos</button>
+            <button onclick="window.location.href='tela_alunos.html';">Alunos</button>
+            <button onclick="window.location.href='tela_addaluno.html';">Cadastrar Alunos</button>
         </div>
         
         <div class="button-container">
-            <button>Eventos</button>
-            <button>Cadastrar Eventos</button>
+            <button onclick="window.location.href='tela_eventos.html';">Eventos</button>
+            <button onclick="window.location.href='tela_addeventos.html';">Cadastrar Eventos</button>
         </div>
         
-        <button>Informações Pessoais</button>
+        <button class="link-perfil" onclick="window.location.href='tela_perfil.html';">Informações Pessoais</button>
         <div calss="faixa-bg"></div>
     </main>
+
     <footer class="footer">
         <p class="footer-text">ShotokanKeiei &#174</p>
     </footer>

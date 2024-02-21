@@ -1,0 +1,65 @@
+html{
+    width: 100%;
+}
+
+main {
+    background-image: url(../img/faixa-preta-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+  
+main h1 {
+    color: #666;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+table{
+    width: 80%;
+}
+
+.container-table{
+    overflow-x: auto;
+}
+
+.back-button{
+    width: 100px;
+}
+  
+.submit-button{
+    max-width: 250px;
+    margin: 20px auto;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+main button:hover {
+    background-color: #45a049;
+}
+  
+main button:focus {
+    outline: none;
+    box-shadow: none;
+}

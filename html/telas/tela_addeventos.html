@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ShotokanKeiei</title>
+    <title>ShotokanKeiei-cadastro-evento</title>
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/addalunos.css">
+    <link rel="stylesheet" href="../css/addeventos.css">
     <style>
         .header{
-            background-color: #ca07e4;
+            background-color: #643005;
         }
 
         p[type="menu"], p[type="perfil"]{
@@ -17,7 +17,7 @@
         }
 
         .footer {
-            background-color: #ca07e4;
+            background-color: #643005;
         }
 
         .footer-text{
@@ -41,36 +41,21 @@
         </a>
     </header>
     <main>
-        <h1>Cadastro de Aluno</h1>
+        <h1>Cadastro de Evento</h1>
         <form>
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br><br>
             
-            <label for="telefone">Telefone:</label>
-            <input type="tel" id="telefone" name="telefone" required><br><br>
+            <label for="local">Local:</label>
+            <input type="text" id="local" name="local" required><br><br>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required><br><br>
-        
-            <label for="idade">Idade:</label>
-            <input type="number" id="idade" name="idade" required><br><br>
-        
-            <label for="peso">Peso:</label>
-            <input type="number" id="peso" name="peso" required><br><br>
-          
-            <label for="data_do_exame">Data do Exame:</label>
-            <input type="date" id="data_do_exame" name="data_do_exame" required><br><br>
+            <label for="data">Data:</label>
+            <input type="data" id="data" name="data" required><br><br>
             
-            <label for="cor_da_faixa">Cor da Faixa:</label>
-            <input type="text" id="cor_da_faixa" name="cor_da_faixa" required><br><br>
-            
-            <label for="tempo_de_treino">Tempo de Treino:</label>
-            <input type="text" id="tempo_de_treino" name="tempo_de_treino" required><br><br>
-        
             <button type="submit" class="submit-btn">Salvar</button>
         </form>
-        <button type="button" class="back-btn" onclick="window.location.href='index.html';">Voltar</button>
-    </main>
+        <button type="button" class="back-btn" onclick="window.history.back();">Voltar</button>
+      </main>
     <footer class="footer">
         <p class="footer-text">ShotokanKeiei &#174</p>
     </footer>

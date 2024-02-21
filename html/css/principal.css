@@ -25,6 +25,10 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.link-perfil {
+    box-shadow: #303030 -2px -5px 17px -5px;
+}
+
 button {
     background-color: #333;
     color: #fff;

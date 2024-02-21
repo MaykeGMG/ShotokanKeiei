@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShotokanKeiei</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/eventos.css">
+    <style>
+        .header{
+            background-color: #ff9100;
+        }
+
+        p[type="menu"], p[type="perfil"]{
+            margin-top: 0;
+            color: #fff;
+        }
+
+        .footer {
+            background-color: #ff9100;
+        }
+
+        .footer-text{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <div class="header-menu">
+                <img src="../img/menu-icon.png" alt="Menu" class="icon">
+                <p type="menu">Menu</p>
+            </div>
+        </a>
+        <div class="header-title">Shotokan Keiei</div>
+        <a href="tela_perfil.html"><div class="header-profile">
+                <img src="../img/perfil-icon.png" alt="Perfil" class="icon">
+                <p type="perfil">Perfil</p>
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <h1>Eventos</h1>
+        <div class="container-table">
+            <table class="tabela">
+                <thead>
+                    <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>Local</th>
+                    <th>Data</th>
+                    <th>Participantes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Campeonato</td>
+                        <td>Lagoa Nova</td>
+                        <td>2023-04-01</td>
+                        <td class="vp"><a href="participantes.html?event_id=1">Ver Participantes</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Exame</td>    
+                        <td>Centro de Treinamento</td>
+                        <td>2023-04-15</td>
+                        <td class="vp"><a href="participantes.html?event_id=2">Ver Participantes</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Aula Especial</td>  
+                        <td>Online</td>
+                        <td>2023-04-22</td>
+                        <td class="vp"><a href="participantes.html?event_id=3">Ver Participantes</a></td>
+                    </tr>
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+        <button type="button" onclick="window.history.back();">Voltar</button>
+      </main>
+
+    <footer class="footer">
+        <p class="footer-text">ShotokanKeiei &#174</p>
+    </footer>
+</body>
+</html>

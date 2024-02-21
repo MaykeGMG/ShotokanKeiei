@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShotokanKeiei</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/perfil.css">
+    <style>
+        .header{
+            background-color: #333333;
+        }
+
+        p[type="menu"], p[type="perfil"]{
+            margin-top: 0;
+            color: #fff;
+        }
+
+        .footer {
+            background-color: #333;
+        }
+
+        .footer-text{
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">
+            <div class="header-menu">
+                <img src="../img/menu-icon.png" alt="Menu" class="icon">
+                <p type="menu">Menu</p>
+            </div>
+        </a>
+        <div class="header-title">Shotokan Keiei</div>
+        <a href="tela_perfil.html"><div class="header-profile">
+                <img src="../img/perfil-icon.png" alt="Perfil" class="icon">
+                <p type="perfil">Perfil</p>
+            </div>
+        </a>
+    </header>
+
+    <main>
+        <h1>Perfil do Professor</h1>
+        <div class="container-table">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Nome:</td>
+                        <td>John Doe</td>
+                    </tr>
+                    <tr>
+                        <td>Dojo Afiliado:</td>
+                        <td>Dojo Funakoshi</td>
+                    </tr>
+                    <tr>
+                        <td>Dan:</td>
+                        <td>3º Dan</td>
+                    </tr>
+                    <tr>
+                        <td>Data do Exame:</td>
+                        <td>2023-02-15</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>johndoe@example.com</td>
+                    </tr>
+                    <tr>
+                        <td>Telefone:</td>
+                        <td>(11) 1234-5678</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <button type="button" class="submit-button">Editar Informações</button>
+        <button type="button" class="back-button" onclick="window.location.href='index.html';">Voltar</button>
+    </main>
+
+    <footer class="footer">
+        <p class="footer-text">ShotokanKeiei &#174</p>
+    </footer>
+</body>
+</html>
