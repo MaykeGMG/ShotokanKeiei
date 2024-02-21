@@ -1,7 +1,42 @@
 main{
-    background-image: url(img/faixa-preta-img.png);
+    background-image: url(../img/faixa-preta-img.png);
     background-repeat: no-repeat;
     background-position: bottom;
-    background-position-x: center;
-    resize: horizontal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.welcome{
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.button-container {
+    display: flex;
+    justify-content:center;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 6px;
+    box-shadow: #303030 7px 8px 12px -5px;
+}
+
+button:hover {
+    background-color: #444;
 }
